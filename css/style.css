@@ -33,7 +33,7 @@ header{
 
 .header__nav{
 
-    /*background: green;*/
+    background: green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ header{
 
 main {
 
-    background: green;
+   background: green;
     padding-top: 45px;
     padding-left:75px ;
     padding-right:75px;
