@@ -9,10 +9,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    /* background-color: var(--color-8); */
+    
 }
 header{
-    /* background: red; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,13 +22,13 @@ header{
 
 }
 .header__logo{
-    /* background: blue; */
+    
 }
 .header__logo img{
 
 }
 .header__nav{
-    /* background: green; */
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@ header{
 
 }
 .header__menu{
-    /* background: violet; */
+   
 }
 .header__menu img{
 
@@ -118,7 +118,7 @@ main{
 
 
 #reviews{
-    /* background: blue; */
+   /* background: blue; */
     /* height: 281px; */
     height: 221px;
     padding-top: 18px;
@@ -255,13 +255,13 @@ main{
 }
 
 .div__choose__type {
-    /* background: violet; */
-    display: flex;
+    background: violet;
+   /* display: flex;*/
     flex-direction: column;
     gap: 15px;
    
 }
-.div__choose-type h3{
+.div__choose__type h3{
     color: var(--color-1);
     font-family: "Poppins-Medium";
     font-size: 20px;
@@ -271,7 +271,7 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.div__choose-type__buttons a{
+.div__choose__type__buttons a{
     width: 64px;
     height: 64px;
     border-radius: 14px;
@@ -289,14 +289,14 @@ main{
 }
 
 .section__container__products {
-    /* background: red; */
+   /*  background: red; */
     /* padding: 20px; */
     padding-top: 63px;
     padding-right: 64px;
     padding-left: 78px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items:flex-end;
 }
 .div__trendy {
     background: var(--color-1);
@@ -322,7 +322,7 @@ main{
 }
 .article__products{
     /* background: green; */
-    /* padding: 20px; */
+     padding: 20px; 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -390,6 +390,8 @@ main{
     gap: 31px;
 }
 .div__type__order input[type="submit"]{
+
+    background: violet;
     width: 139px;
     height: 40px;
     cursor: pointer;
@@ -413,7 +415,7 @@ main{
     align-items: center;
     /* Borde y forma redondeada */
     border: 1px solid #fff;
-    border-radius: 11px;
+    border-radius: 9px;
     padding: 5px 10px;
     /* Ajusta la separación entre elementos a tu gusto */
     gap: 10px;
