@@ -55,7 +55,7 @@ header{
 }
 
 main{
-    /* background: green; */
+   
     padding-top: 45px;
     padding-left: 75px;
     padding-right: 75px;
@@ -89,13 +89,26 @@ main{
     color: var(--color-6);
     line-height: 123%;
 }
+
+.div__type__buttons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+  }
 .div__buttons{
     margin-top: 26px;
-    /* background: rebeccapurple; */
+   
     display: flex;
     gap: 38px;
     
 }
+
+
+
+
+
 .div__buttons a{
     width: 264px;
     height: 86px;
@@ -128,26 +141,24 @@ main{
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(var(--cards), var(--cardHeight));
 	gap: var(--cardMargin);
-	/* padding-bottom: calc(var(--cards) * var(--cardTopPadding)); */
-	/* margin-bottom: var(--cardMargin); */
+	
 }
-/* Oculta la barra de desplazamiento predeterminada */
+
 #reviews::-webkit-scrollbar {
-    width: 10px; /* Ancho de la barra de desplazamiento */
+    width: 10px; 
 }
 
-/* Personaliza el riel de la barra de desplazamiento */
 #reviews::-webkit-scrollbar-track {
-    background: transparent; /* Color del fondo */
+    background: transparent; 
 }
 
-/* Personaliza el 'thumb' de la barra de desplazamiento */
+
 #reviews::-webkit-scrollbar-thumb {
-    background: var(--color-1); /* Color del thumb */
-    border-radius: 10px; /* Bordes redondeados */
+    background: var(--color-1); 
+    border-radius: 10px; 
 }
 
-/* Estiliza el thumb cuando se pasa el cursor sobre él */
+
 #reviews::-webkit-scrollbar-thumb:hover {
     background: var(--color-6);
     cursor: grab;
@@ -155,7 +166,7 @@ main{
 #reviews::-webkit-scrollbar-thumb:active {
     cursor: grabbing;
 }
-/* Estiliza los botones de la barra de desplazamiento (si los hay) */
+
 #reviews::-webkit-scrollbar-button {
     display: none;
 }
@@ -254,24 +265,38 @@ main{
 
 }
 
+
 .div__choose__type {
-    background: violet;
-   /* display: flex;*/
+   
+    justify-content: space-between;
+    display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    
+
+    
+    
+
    
 }
 .div__choose__type h3{
+    
+    margin-left: 20px;
+    gap: 10px;
     color: var(--color-1);
     font-family: "Poppins-Medium";
     font-size: 20px;
 
 }
-.div__choose-type__buttons {
+.div__choose__type__buttons {
+  
     display: flex;
     justify-content: space-between;
+    
 }
 .div__choose__type__buttons a{
+ 
+   
     width: 64px;
     height: 64px;
     border-radius: 14px;
@@ -282,7 +307,6 @@ main{
     color: var(--color-1);
     text-decoration: none;
     display: flex;
-    justify-content: center;
     align-items: center;
     outline: none;
     backdrop-filter: blur(3px);
@@ -299,6 +323,7 @@ main{
     align-items:flex-end;
 }
 .div__trendy {
+    
     background: var(--color-1);
     width: 213px;
     height: 54px;
@@ -307,17 +332,21 @@ main{
     justify-content: center;
     align-items: center;
     position: relative;
+   
 }
 .div__trendy h2{
+
     color: var(--color-2);
     font-family: "Poppins-Medium";
     font-size: 28px;
-    padding-right: 19px;
+    padding-right: 15px;
 }
 .div__trendy img{
+
     position: absolute;
     top: -12px;
     right: -2px;
+
     
 }
 .article__products{
@@ -391,7 +420,7 @@ main{
 }
 .div__type__order input[type="submit"]{
 
-    background: violet;
+    background:yellow;
     width: 139px;
     height: 40px;
     cursor: pointer;
@@ -407,7 +436,7 @@ main{
     align-items: center;
 }
 
-/************lalal***********/
+/************boton***********/
 
 
   .counter {
@@ -417,7 +446,6 @@ main{
     border: 1px solid #fff;
     border-radius: 9px;
     padding: 5px 10px;
-    /* Ajusta la separación entre elementos a tu gusto */
     gap: 10px;
   }
   
@@ -434,7 +462,6 @@ main{
     font-size: 1rem;
   }
   
-  /* Opcional: líneas divisorias entre los símbolos y el número */
   .counter-btn:not(:last-child) {
     border-right: 1px solid #fff;
     padding-right: 10px;
